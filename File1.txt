@@ -1,8 +1,8 @@
 class HelloWorld{
 
-main(){
+	public static void main(String args[]){
 
-sysout("Welcome to Git!!!");
-}
+		sysout("Welcome to Git!!!");
+	}
 
 }
