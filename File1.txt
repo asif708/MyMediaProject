@@ -1,7 +1,8 @@
 class HelloWorld{
 
-	public void displayHello(String str){
-		System.out.println(str);
+	public static void displayHello(String str){
+		System.out.println();
+
 	}
 		
 
@@ -9,6 +10,9 @@ class HelloWorld{
 
 		HelloWorld obj = new HelloWorld();
 		obj.displayHello("Hey Git...!!!Conflict here");
+
+		displayHello("Welcome to Git!!!");
+
 	}
 
 }
