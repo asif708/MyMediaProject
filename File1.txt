@@ -4,14 +4,19 @@ class HelloWorld{
 		System.out.println();
 
 	}
-		
+	
+	void resolveBug(){
+	
+		//bug resolved
+	}
+	
 
 	public static void main(String args[]){
 
 		HelloWorld obj = new HelloWorld();
 		obj.displayHello("Hey Git...!!!Conflict here");
-
 		displayHello("Welcome to Git!!!");
+		obj.resolveBug();
 
 	}
 
